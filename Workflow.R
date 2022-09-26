@@ -1,4 +1,4 @@
-# Remove existing variables if in an interactive session.
+# Remove existing variables if in an interactive session.grg
 if(interactive()){
   rm(list = ls())
 }
